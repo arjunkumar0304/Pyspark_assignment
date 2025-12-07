@@ -1,0 +1,48 @@
+# Pyspark_assignment
+
+# 1. Question:
+# 1.1.Create DataFrame as purchase_data_df, product_data_df with custom schema with the below data
+<img width="950" height="944" alt="Screenshot 2025-12-07 124341" src="https://github.com/user-attachments/assets/f3dcb415-e01a-4453-af1b-23b60714fdc6" />
+
+<img width="868" height="600" alt="Screenshot 2025-12-07 124515" src="https://github.com/user-attachments/assets/9d75f393-56bf-4478-9bd8-b24988653ce9" />
+
+
+# 1.2.Find the customers who have bought only iphone13
+
+<img width="641" height="418" alt="Screenshot 2025-12-07 134122" src="https://github.com/user-attachments/assets/ba62cb83-ff55-40d0-b8f3-10d7d8fa5476" />
+
+# 1.3.Find customers who upgraded from product iphone13 to product iphone14
+<img width="910" height="319" alt="Screenshot 2025-12-07 134527" src="https://github.com/user-attachments/assets/fe6b766e-da37-48b9-be6b-595506e33249" />
+
+
+# 1.4.Find customers who have bought all models in the new Product Data
+<img width="733" height="331" alt="Screenshot 2025-12-07 135134" src="https://github.com/user-attachments/assets/df30a02e-b984-4255-8d59-95f11ebecaa6" />
+
+
+# 2.Question:
+<img width="495" height="474" alt="Screenshot 2025-12-07 135830" src="https://github.com/user-attachments/assets/88c9d15a-4a88-4d26-9455-7407ec05eee9" />
+
+
+2.1. print number of partitions
+
+
+
+
+2.2 Increase the partition size to 5 
+
+2.3 Decrease the partition size back to its original partition size 
+
+
+
+2.4Create a UDF to print only the last 4 digits marking the remaining digits as * 
+
+Eg: ************4567 
+
+
+
+
+
+
+2.5 output should have 2 columns as card_number, masked_card_number(with output of question 2) 
+
+
