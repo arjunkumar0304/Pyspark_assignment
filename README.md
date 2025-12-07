@@ -23,26 +23,39 @@
 <img width="495" height="474" alt="Screenshot 2025-12-07 135830" src="https://github.com/user-attachments/assets/88c9d15a-4a88-4d26-9455-7407ec05eee9" />
 
 
-2.1. print number of partitions
+# 2.1. print number of partitions
+
+
+<img width="414" height="253" alt="Screenshot 2025-12-07 142118" src="https://github.com/user-attachments/assets/f153b263-923b-4dc6-8def-08f9e83b620c" />
 
 
 
+# 2.2 Increase the partition size to 5 
 
-2.2 Increase the partition size to 5 
-
-2.3 Decrease the partition size back to its original partition size 
-
+<img width="660" height="166" alt="Screenshot 2025-12-07 142750" src="https://github.com/user-attachments/assets/b0769db9-3a95-48f7-b9b1-8289b5d1300d" />
 
 
-2.4Create a UDF to print only the last 4 digits marking the remaining digits as * 
+# 2.3 Decrease the partition size back to its original partition size 
+
+<img width="693" height="101" alt="image" src="https://github.com/user-attachments/assets/94cd925a-6e4f-4f73-9462-56b3e5a20000" />
+
+<img width="647" height="47" alt="image" src="https://github.com/user-attachments/assets/8a382e79-4fa6-4950-85e5-12d2838504de" />
+
+
+
+# 2.4Create a UDF to print only the last 4 digits marking the remaining digits as * 
 
 Eg: ************4567 
 
 
 
+<img width="678" height="117" alt="Screenshot 2025-12-07 142809" src="https://github.com/user-attachments/assets/81430f62-611b-42dd-8a60-f51b7ea0fd7f" />
 
 
 
-2.5 output should have 2 columns as card_number, masked_card_number(with output of question 2) 
+
+# 2.5 output should have 2 columns as card_number, masked_card_number(with output of question 2) 
+
+<img width="986" height="406" alt="Screenshot 2025-12-07 142833" src="https://github.com/user-attachments/assets/64d0afcd-ff00-43b1-99f9-95f4fe05b381" />
 
 
