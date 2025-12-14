@@ -59,3 +59,23 @@ Eg: ************4567
 <img width="986" height="406" alt="Screenshot 2025-12-07 142833" src="https://github.com/user-attachments/assets/64d0afcd-ff00-43b1-99f9-95f4fe05b381" />
 
 
+# 3. Question
+
+# 3.1. Create a Data Frame with custom schema creation by using Struct Type and Struct Field Column names: log id, user$id, action, and timestamp.
+
+<img width="591" height="797" alt="Screenshot 2025-12-14 212840" src="https://github.com/user-attachments/assets/4fc152a3-361b-478f-82d4-cd85412023f4" />
+
+
+
+# 3.2.Column names should be log_id, user_id, user_activity, time_stamp using dynamic function
+<img width="711" height="430" alt="Screenshot 2025-12-14 213150" src="https://github.com/user-attachments/assets/89420ff2-72d4-42da-aad0-2cdad89b01d6" />
+
+
+# 3.3. Write a query to calculate the number of actions performed by each user in the last 7 days
+<img width="727" height="332" alt="Screenshot 2025-12-14 215043" src="https://github.com/user-attachments/assets/eba14a68-2170-422a-bb79-58296f616409" />
+
+
+# 3.4. Convert the time stamp column to the login_date column with YYYY-MM-DD format with date type as its data type
+<img width="587" height="166" alt="Screenshot 2025-12-14 223019" src="https://github.com/user-attachments/assets/d5df3815-82d8-46f7-b4c9-b42fc3e2b1ea" />
+<img width="540" height="224" alt="Screenshot 2025-12-14 223040" src="https://github.com/user-attachments/assets/0692339f-cc3e-45e5-8131-bbff484e4e14" />
+
