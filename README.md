@@ -1,4 +1,4 @@
-# Pyspark_assignment
+#  Pyspark_assignment
 
 # 1. Question:
 # 1.1.Create DataFrame as purchase_data_df, product_data_df with custom schema with the below data
@@ -78,4 +78,84 @@ Eg: ************4567
 # 3.4. Convert the time stamp column to the login_date column with YYYY-MM-DD format with date type as its data type
 <img width="587" height="166" alt="Screenshot 2025-12-14 223019" src="https://github.com/user-attachments/assets/d5df3815-82d8-46f7-b4c9-b42fc3e2b1ea" />
 <img width="540" height="224" alt="Screenshot 2025-12-14 223040" src="https://github.com/user-attachments/assets/0692339f-cc3e-45e5-8131-bbff484e4e14" />
+
+
+# 4. Question
+# 4.1. Read JSON file provided in the attachment using the dynamic function
+<img width="886" height="353" alt="Screenshot 2025-12-14 224816" src="https://github.com/user-attachments/assets/88ae5e37-6f02-41a3-adb4-e25ebaf39430" />
+
+
+# 4.2. flatten the data frame which is a custom schema
+
+<img width="790" height="297" alt="Screenshot 2025-12-14 225903" src="https://github.com/user-attachments/assets/33dd7daf-d9e4-443e-93fb-f2c74b710ee4" />
+
+# 4.3. find out the record count when flattened and when it's not flattened(find out the difference why you are getting more count)
+
+<img width="505" height="246" alt="Screenshot 2025-12-14 230403" src="https://github.com/user-attachments/assets/40e3c66e-1ab0-4e36-916b-d29659f23c8b" />
+
+# 4.4. Differentiate the difference using explode, explode outerfunctions
+
+<img width="750" height="507" alt="Screenshot 2025-12-14 230936" src="https://github.com/user-attachments/assets/24a727e6-d7c5-4ff1-a1d9-8a48e899e9a7" />
+<img width="831" height="151" alt="Screenshot 2025-12-14 230944" src="https://github.com/user-attachments/assets/4b8212cb-7650-4646-aec5-f56cb25b81db" />
+
+
+# 4.5. Filter the id which is equal to 0001 
+
+<img width="796" height="450" alt="Screenshot 2025-12-14 231128" src="https://github.com/user-attachments/assets/8faaec65-4bfb-4bf5-bc79-66784e478f27" />
+
+# 4.6. Add a new column named load_date with the current date
+
+<img width="736" height="381" alt="Screenshot 2025-12-21 115404" src="https://github.com/user-attachments/assets/deaea18d-f456-45b0-941c-e6cc9a88b8c5" />
+
+
+# 4.7. create 3 new columns as year, month, and day from the load_date column
+
+<img width="675" height="356" alt="Screenshot 2025-12-21 115417" src="https://github.com/user-attachments/assets/f0d61042-101a-46cb-a316-c85fb66d0b70" />
+
+
+# 5.1. create all 3 data frames as employee_df, department_df, country_df with custom schema defined in dynamic way
+
+<img width="857" height="537" alt="Screenshot 2025-12-21 120105" src="https://github.com/user-attachments/assets/77115bbd-014f-4677-84af-af337772f419" />
+
+<img width="712" height="327" alt="Screenshot 2025-12-21 120121" src="https://github.com/user-attachments/assets/308aa5c3-b042-4df3-9fdf-707487a1c615" />
+
+<img width="784" height="431" alt="Screenshot 2025-12-21 120141" src="https://github.com/user-attachments/assets/e17eb113-2267-4fd8-bec9-515c78100b26" />
+
+<img width="571" height="642" alt="Screenshot 2025-12-21 120204" src="https://github.com/user-attachments/assets/c9c63c78-3296-40bf-9785-78f5a08d9114" />
+
+
+# 5.2. Find avg salary of each department
+<img width="927" height="267" alt="image" src="https://github.com/user-attachments/assets/b490b4de-caf0-4dcf-84c6-2f9613e3d7c3" />
+
+
+# 5.3. Find the employee’s name and department name whose name starts with ‘m’
+
+<img width="655" height="414" alt="Screenshot 2025-12-21 121458" src="https://github.com/user-attachments/assets/4fb7f2dc-c908-467e-93ae-8ff56ac8eef4" />
+
+
+
+# 5.4. Create another new column in employee_df as a bonus by multiplying employee salary *2
+
+<img width="681" height="403" alt="Screenshot 2025-12-21 121522" src="https://github.com/user-attachments/assets/e7b2f4d4-b848-475c-a0bf-859552c20a3f" />
+
+
+# 5.5. Reorder the column names of employee_df columns as (employee_id,employee_name,salary,State,Age,department)
+
+<img width="993" height="384" alt="Screenshot 2025-12-21 122530" src="https://github.com/user-attachments/assets/135bf2a9-642c-4731-bce7-b337cdbdb500" />
+
+
+# 5.6. Give the result of an inner join, left join, and right join when joining employee_df with department_df in a dynamic way
+<img width="927" height="1030" alt="Screenshot 2025-12-21 123000" src="https://github.com/user-attachments/assets/ac1204bc-786b-45a7-b94d-794a2f229d36" />
+
+
+
+# 5.7. Derive a new data frame with country_name instead of State in employee_df
+Eg(11,“james”,”D101”,”newyork”,8900,32)
+
+<img width="1167" height="414" alt="Screenshot 2025-12-21 123407" src="https://github.com/user-attachments/assets/8609a16c-94d6-4ba0-929a-8ee382624261" />
+
+
+# 5.8. convert all the column names into lowercase from the result of question 7in a dynamic way, add the load_date column with the current date
+
+<img width="1310" height="372" alt="image" src="https://github.com/user-attachments/assets/047fc72a-a480-4aec-ad54-081cbaa7caae" />
 
